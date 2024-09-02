@@ -1,9 +1,11 @@
 -- Criação de tabela
-CREATE TABLE dbo.MunicipiosUTDs40 MunicipiosUTDs40 (
+CREATE TABLE dbo.MontantesUsoContratados (
 	ID INT IDENTITY(1,1) PRIMARY KEY,
-	Municipio VARCHAR(255),
-	Bairro VARCHAR(255),
-	UTD40 VARCHAR(255)
+	Instalacao INT,
+	Operando VARCHAR(255),
+	ValidoDesde DATE,
+	ValidoAte DATE,
+	Montante FLOAT
 )
 
 
